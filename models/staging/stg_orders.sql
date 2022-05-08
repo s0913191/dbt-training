@@ -8,10 +8,12 @@ o.orderid
 , o.ordercostprice
 , o.ordersellingprice
 --FROM RAW CUSTOMER
+, c.customerid
 , c.customername
 , c.segment
 , c.country
 --FROM RAW PRODUCT
+, p.productid
 , p.category
 , p.productname
 , p.subcategory
